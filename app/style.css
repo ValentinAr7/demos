@@ -22,5 +22,58 @@
 
 #title{
     color: rgb(16, 16, 16);
+    text-transform: capitalize;
 }
+
+.label_bill{
+    color: (16, 16, 16);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.label_people{
+    color: (16, 16, 16);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+
+.input{
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 50%;
+    
+    background-color: rgb(213, 246, 213);
+    cursor: pointer;
+    height: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 83, 0);
+}
+
+.label_service{
+    color: (16, 16, 16);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+input,
+select {
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 50%;
+    background-color: rgb(213, 246, 213);
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 83, 0); 
+}
+
+
+
+
 
