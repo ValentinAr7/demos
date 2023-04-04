@@ -73,7 +73,31 @@ select {
     border-bottom: 2px solid rgb(0, 83, 0); 
 }
 
+.btn_calculate{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 50px;
 
+    background-color: rgb(105, 179, 105); 
+    border: none;
+    border-radius: 5%;
+    font-size: 20px;
+    color: rgb(16, 16, 16);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn_calculate:hover{
+    background-color: rgb(173, 219, 173);
+}
+
+
+.tip{
+    color: rgb(16, 16, 16);
+    font-size: 20px;
+    display: none;
+}
 
 
 
