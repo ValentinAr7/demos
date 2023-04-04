@@ -1,5 +1,25 @@
-const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+function tip(){
 
- const newArray = array.entries()
+    let amount = document.querySelector('input_bill').value
+    let people = document.querySelector('input_people').value
+    let service = document.querySelector('services').value
+
+    if(amount == '' || people == ''){
+        alert('Please entry valid values')
+    return
+    } 
+
+    if(people == '1'){
+        document.querySelector('each').style.display = none;
+    } else {
+        document.querySelector('each').style.display = 'block'
+    }
+
+    let total = (amount * service) / people
+    total = total.toFixed(2)
+    
+    document.querySelector('tip').style.display = 'block'
+    document.querySelector('total').innerHTML = total
+}
 
 

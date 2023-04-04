@@ -42,7 +42,7 @@
 }
 
 
-.input{
+.input_bill{
     margin-top: 5px;
     margin-left: 20px;
     width: 50%;
@@ -53,6 +53,19 @@
     border: none;
     border-bottom: 2px solid rgb(0, 83, 0);
 }
+
+.input_people{
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 50%;
+    
+    background-color: rgb(213, 246, 213);
+    cursor: pointer;
+    height: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 83, 0);
+}
+
 
 .label_service{
     color: (16, 16, 16);
