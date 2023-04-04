@@ -5,32 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Account</title>
-    <link rel="stylesheet" href="style.css">
-        <script type="text/javascript" src="demo.js">
-
-
+    <link rel="stylesheet" href="style.css">    
+    <script type="text/javascript" src="demo.js"></script>
 </head>
 <body>
     <div class="window-box">
-        
         <div class="div">
             <header class="header-section">
                 <h1 id="title">Tip Calculator</h1>
             </header>
-
             <div>
                 <p class="label_bill">How much was your bill?</p>
-                <input type="text" class="input_bill">
-             
-
-            
+                <input type="text" id="input_bill">
                 <p class="label_people">How many people share the bill?</p>
-                <input type="number" class="input_people">
-            
+                <input type="number" id="input_people">
                 <p class="label_service">How was your meal?</p>
-
                 <select id="services">
-
                     <option class="services" selected disabled hidden>
                         Select
                     </option>
@@ -40,25 +30,16 @@
                     <option value="0.10">10% Bad</option>
                     <option value="0.05">05% Very Bad</option>
                 </select>
-
                 <div>
-                <button class="btn_calculate">Calculate</button>
+                    <button class="btn_calculate" onclick="tip()">Calculate</button>
                 </div>
-
                 <div class="tip">
                     <p>Tip Amount</p>
-                    <span id="each">Each</span>
                     <span id="total">0</span>
+                    <span id="each">Each</span>
                 </div>
             </div>  
-
-
-
-
-
         </div>
-
     </div>
-
 </body>
 </html>
