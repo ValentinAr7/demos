@@ -8,16 +8,19 @@
     border: 2px solid green;
     background-color: rgb(146, 227, 146);
     border-radius: 5%;
+    overflow: hidden;
     
 }
 
 .header-section {
     text-align: center;
+    background-color: rgb(36, 134, 36);
+    padding-top: 1px;
+    padding-bottom: 1px;
 
 }
 
-.div{
-    
+#title{
+    color: rgb(16, 16, 16);
 }
-
 
