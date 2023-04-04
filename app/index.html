@@ -13,8 +13,39 @@
         
         <div class="div">
             <header class="header-section">
-                <h1 id="title">Tip Account</h1>
+                <h1 id="title">Tip Calculator</h1>
             </header>
+
+            <div>
+                <p class="label_bill">How much was your bill?</p>
+                <input type="text" class="input">
+             
+
+            
+                <p class="label_people">How many people share the bill?</p>
+                <input type="number" class="input">
+            
+                <p class="label_service">How was your meal?</p>
+
+                <select id="services">
+
+                    <option class="services" selected disabled hidden>
+                        Select
+                    </option>
+                    <option value="0.25">25% Top Notch</option>
+                    <option value="0.20">20% Very Good</option>
+                    <option value="0.15">15% Good</option>
+                    <option value="0.10">10% Bad</option>
+                    <option value="0.05">05% Very Bad</option>
+                </select>
+
+                <button class="btn_calculate">Calculate</button>
+            </div>  
+
+
+
+
+
         </div>
 
     </div>
