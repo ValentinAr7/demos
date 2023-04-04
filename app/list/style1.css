@@ -7,15 +7,23 @@ body{
   padding:80px 0;
 }
 
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+.container {
+  display: flex;
+  justify-content: center; /* centers the items horizontally */
 }
 
-@media (max-width: 767px) {
-  .product-grid {
-    grid-template-columns: 1fr;
+.item {
+  width: 70%; /* each item takes 50% of the container's width */
+}
+
+@media (max-width: 767px) { /* styles for phone screens */
+  .container {
+    flex-direction: column; /* stacks the items vertically */
+    align-items: center; /* centers the items vertically */
+  }
+  
+  .item {
+    width: 100%; /* each item takes 100% of the container's width */
   }
 }
 
