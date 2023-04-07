@@ -13,7 +13,7 @@ body{
 }
 
 .item {
-  width: 70%; /* each item takes 50% of the container's width */
+  width: 0%; /* each item takes 50% of the container's width */
 }
 
 @media (max-width: 767px) { /* styles for phone screens */
